@@ -1,0 +1,33 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696595888
+camera.gd::GDScript::-1::1696504527::0::1::::<>Camera3D<>::
+ground.tscn::PackedScene::5095019567804515628::1696504527::0::1::::<><>::uid://tlguyjhviuv::::res://Assets/ground.glb<>uid://cvfilgxeju70q::::res://sol_grass-6_diffuse.png
+icon.svg::CompressedTexture2D::97933851559441043::1696504527::1696595874::1::::<><>::
+mirel_final.tscn::PackedScene::8150193615678609692::1696504527::0::1::::<><>::uid://dx0fbpfmdexbb::::res://Assets/mirel_Final.glb<>res://Assets/mirel.gd
+player.tscn::PackedScene::7952286775794230807::1696504527::0::1::::<><>::res://Assets/mirel.gd<>uid://bix0v4qr7gdla::::res://Assets/materials/Wood Wand.tres<>uid://bkky5okx2osi8::::res://Assets/materials/Magic Light.tres<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res
+README.md::TextFile::-1::1696504527::0::1::::<><>::
+solmat.tres::StandardMaterial3D::1488547425754211129::1696504527::0::1::::<><>::uid://cvfilgxeju70q::::res://sol_grass-6_diffuse.png
+sol_grass-6_bump.png::CompressedTexture2D::5787316356061744449::1696504527::1696595874::1::::<><>::
+sol_grass-6_diffuse.png::CompressedTexture2D::6257634703095461714::1696504527::1696595875::1::::<><>::
+sol_grass-6_smooth.png::CompressedTexture2D::1031056487446957097::1696504527::1696595875::1::::<><>::
+world.gd::GDScript::-1::1696504527::0::1::::<>Node3D<>::
+world.tscn::PackedScene::6800750879910202692::1696595888::0::1::::<><>::res://world.gd<>res://Assets/mirel.gd<>uid://bix0v4qr7gdla::::res://Assets/materials/Wood Wand.tres<>uid://bkky5okx2osi8::::res://Assets/materials/Magic Light.tres<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res<>res://camera.gd<>uid://vhcfnmrgk7dd::::res://solmat.tres<>uid://tlguyjhviuv::::res://Assets/ground.glb
+::res://Assets/::1696595875
+ground.glb::PackedScene::39902866972413589::1696504527::1696595875::1::::<><>::
+mirel.gd::GDScript::-1::1696504527::0::1::::<>CharacterBody3D<>::
+mirel_Final.glb::PackedScene::8825521065486971791::1696593206::1696595906::1::::<><>::uid://bix0v4qr7gdla::::res://Assets/materials/Wood Wand.tres<>uid://bkky5okx2osi8::::res://Assets/materials/Magic Light.tres<>uid://dsow1j5hdn4su::::res://Assets/materials/Fabric 2.tres<>uid://bes0cd6uw76va::::res://Assets/materials/Fabric.tres<>uid://d3x418l74heqj::::res://Assets/materials/White.tres<>uid://bk4b4q0a33l45::::res://Assets/materials/Hair.tres<>uid://bed2cros2dnpu::::res://Assets/materials/Skin.tres<>uid://cncatj0orjyjs::::res://Assets/materials/Skin 2.tres<>uid://dsp2qk0x5bcs3::::res://Assets/materials/Black.tres<>uid://7y7pjaawfqvs::::res://Assets/materials/Metal.tres<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res
+::res://Assets/animations/::1696595875
+Idle.res::Animation::7326708122152520163::1696595906::0::1::::<><>::
+Walk.res::Animation::4419751311042789835::1696595906::0::1::::<><>::
+::res://Assets/materials/::1696595854
+Black.tres::StandardMaterial3D::8455295399320714512::1696504527::0::1::::<><>::
+Fabric 2.tres::StandardMaterial3D::8452945248979998308::1696504527::0::1::::<><>::
+Fabric.tres::StandardMaterial3D::2705856560623667430::1696504527::0::1::::<><>::
+Hair.tres::StandardMaterial3D::3148289458989411204::1696504527::0::1::::<><>::
+Magic Light.tres::StandardMaterial3D::3110464431114178041::1696504527::0::1::::<><>::
+Metal.tres::StandardMaterial3D::2297558265931337636::1696504527::0::1::::<><>::
+Skin 2.tres::StandardMaterial3D::5689459532262392828::1696504527::0::1::::<><>::
+Skin.tres::StandardMaterial3D::2675013037278180686::1696504527::0::1::::<><>::
+White.tres::StandardMaterial3D::9173839336475710465::1696504527::0::1::::<><>::
+Wood Wand.tres::StandardMaterial3D::2996969096341328850::1696504527::0::1::::<><>::
+::res://Res/::1696595854

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://doeaq62ak5q5q"]
+
+[ext_resource type="PackedScene" uid="uid://dx0fbpfmdexbb" path="res://Assets/mirel_Final.glb" id="1_iryms"]
+[ext_resource type="Script" path="res://Assets/mirel.gd" id="2_4in0x"]
+
+[node name="mirel_Final" instance=ExtResource("1_iryms")]
+script = ExtResource("2_4in0x")
+
+[node name="Skeleton3D" parent="Armature" index="1"]
+bones/1/rotation = Quaternion(-5.33715e-11, 0.0299172, 1.7832e-09, 0.999552)
+bones/2/rotation = Quaternion(-0.00996136, -0.0894518, -0.967158, 0.237705)
+bones/3/rotation = Quaternion(0.168694, 0.406876, -0.0494753, 0.896407)
+bones/5/rotation = Quaternion(-0.00535449, -0.19538, -0.980345, 0.0268674)
+bones/6/rotation = Quaternion(1.76677e-07, 2.5118e-07, 0.0103631, 0.999946)
+bones/7/rotation = Quaternion(0.00865277, -0.210268, 0.955743, 0.20559)
+bones/8/rotation = Quaternion(0.168694, -0.406876, 0.0494752, 0.896407)
+bones/10/rotation = Quaternion(0.00790842, -0.288569, 0.957067, 0.0262294)
+bones/11/rotation = Quaternion(0.204493, 0.0133437, -0.0101433, 0.978725)
