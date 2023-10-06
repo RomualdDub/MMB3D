@@ -1,6 +1,2 @@
-res://Assets/animations/Idle.res
-res://Assets/animations/Walk.res
 res://world.tscn
-res://Assets/animations/Attack.res
-res://Assets/animations/Jump.res
 res://Assets/mirel.gd
