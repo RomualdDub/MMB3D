@@ -1,23 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696677803
+::res://::1696680847
 camera.gd::GDScript::-1::1696504527::0::1::::<>Camera3D<>::
 export_presets.cfg::TextFile::-1::1696600253::0::1::::<><>::
+Global.gd::GDScript::-1::1696679938::0::1::::<>Node<>::
 ground.tscn::PackedScene::5095019567804515628::1696504527::0::1::::<><>::uid://tlguyjhviuv
 icon.svg::CompressedTexture2D::97933851559441043::1696504527::1696595874::1::::<><>::
 mirel_final.tscn::PackedScene::8150193615678609692::1696504527::0::1::::<><>::uid://dx0fbpfmdexbb
-player.tscn::PackedScene::7952286775794230807::1696675238::0::1::::<><>::res://Assets/mirel.gd<>uid://ban2locxmqlj::::res://Assets/animations/Attack.res<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://dko67l8oby02a::::res://Assets/animations/Jump.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res
-projectile.gd::GDScript::-1::1696677710::0::1::::<>CharacterBody3D<>::
-projectile.tscn::PackedScene::2363968327234160199::1696677745::0::1::::<><>::uid://bkky5okx2osi8::::res://Assets/materials/Magic Light.tres<>res://projectile.gd
+player.tscn::PackedScene::7952286775794230807::1696678488::0::1::::<><>::res://Assets/mirel.gd<>uid://ban2locxmqlj::::res://Assets/animations/Attack.res<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://dko67l8oby02a::::res://Assets/animations/Jump.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res<>res://projectile.gd<>uid://bkky5okx2osi8::::res://Assets/materials/Magic Light.tres
+projectile.gd::GDScript::-1::1696680785::0::1::::<>CharacterBody3D<>::
+projectile.tscn::PackedScene::2363968327234160199::1696680537::0::1::::<><>::uid://bkky5okx2osi8::::res://Assets/materials/Magic Light.tres<>res://projectile.gd
 README.md::TextFile::-1::1696598650::0::1::::<><>::
 solmat.tres::StandardMaterial3D::1488547425754211129::1696504527::0::1::::<><>::uid://cvfilgxeju70q
 sol_grass-6_bump.png::CompressedTexture2D::5787316356061744449::1696504527::1696595874::1::::<><>::
 sol_grass-6_diffuse.png::CompressedTexture2D::6257634703095461714::1696504527::1696595875::1::::<><>::
 sol_grass-6_smooth.png::CompressedTexture2D::1031056487446957097::1696504527::1696595875::1::::<><>::
 world.gd::GDScript::-1::1696504527::0::1::::<>Node3D<>::
-world.tscn::PackedScene::6800750879910202692::1696677712::0::1::::<><>::res://world.gd<>res://Assets/mirel.gd<>uid://8xehigs0ljdv::::res://projectile.tscn<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res<>uid://ban2locxmqlj::::res://Assets/animations/Attack.res<>res://camera.gd<>uid://dko67l8oby02a::::res://Assets/animations/Jump.res<>uid://vhcfnmrgk7dd::::res://solmat.tres<>uid://tlguyjhviuv::::res://Assets/ground.glb
-::res://Assets/::1696677347
+world.tscn::PackedScene::6800750879910202692::1696680792::0::1::::<><>::res://world.gd<>res://Assets/mirel.gd<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res<>uid://ban2locxmqlj::::res://Assets/animations/Attack.res<>res://camera.gd<>uid://dko67l8oby02a::::res://Assets/animations/Jump.res<>uid://vhcfnmrgk7dd::::res://solmat.tres<>uid://tlguyjhviuv::::res://Assets/ground.glb
+::res://Assets/::1696680703
 ground.glb::PackedScene::39902866972413589::1696504527::1696595875::1::::<><>::
-mirel.gd::GDScript::-1::1696677347::0::1::::<>CharacterBody3D<>::
+mirel.gd::GDScript::-1::1696680703::0::1::::<>CharacterBody3D<>::
 mirel_Final.glb::PackedScene::8825521065486971791::1696593206::1696595931::1::::<><>::
 wand1.glb::PackedScene::5389897433267484218::1696674652::1696674665::1::::<><>::
 ::res://Assets/animations/::1696675214

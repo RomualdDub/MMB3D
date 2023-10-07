@@ -68,6 +68,6 @@ func attack():
 	var projectile = projectile_scene.instantiate()
 	add_sibling(projectile)
 	projectile.transform = $Armature/Skeleton3D/BoneAttachment3D/Wand/WandArmature/Skeleton3D/BoneAttachment3D.global_transform
-	projectile.rotation = Vector3(90, 90, 90)
+
 	
 	
