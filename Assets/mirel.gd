@@ -3,6 +3,7 @@ extends CharacterBody3D
 var speed = 10
 var jump_speed = 20
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+@export var projectile: PackedScene 
 
 func _ready():
 	$AnimationTree.active = true
@@ -59,3 +60,8 @@ func _physics_process(delta):
 		$AnimationTree.set("parameters/moving/transition_request", "idle")
 
 	move_and_slide()
+
+func attack():
+	var bullet = projectile.instantiate()
+	owner.add_child(bullet)
+	

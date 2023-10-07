@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696669672
+::res://::1696674627
 camera.gd::GDScript::-1::1696504527::0::1::::<>Camera3D<>::
 export_presets.cfg::TextFile::-1::1696600253::0::1::::<><>::
 ground.tscn::PackedScene::5095019567804515628::1696504527::0::1::::<><>::uid://tlguyjhviuv
@@ -12,14 +12,14 @@ sol_grass-6_bump.png::CompressedTexture2D::5787316356061744449::1696504527::1696
 sol_grass-6_diffuse.png::CompressedTexture2D::6257634703095461714::1696504527::1696595875::1::::<><>::
 sol_grass-6_smooth.png::CompressedTexture2D::1031056487446957097::1696504527::1696595875::1::::<><>::
 world.gd::GDScript::-1::1696504527::0::1::::<>Node3D<>::
-world.tscn::PackedScene::6800750879910202692::1696669672::0::1::::<><>::res://world.gd<>res://Assets/mirel.gd<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res<>uid://ban2locxmqlj::::res://Assets/animations/Attack.res<>res://camera.gd<>uid://dko67l8oby02a::::res://Assets/animations/Jump.res<>uid://vhcfnmrgk7dd::::res://solmat.tres<>uid://tlguyjhviuv::::res://Assets/ground.glb
-::res://Assets/::1696669666
+world.tscn::PackedScene::6800750879910202692::1696674627::0::1::::<><>::res://world.gd<>res://Assets/mirel.gd<>uid://dcnd2vbxal80v::::res://Assets/animations/Idle.res<>uid://b377wncfacp0n::::res://Assets/animations/Walk.res<>uid://ban2locxmqlj::::res://Assets/animations/Attack.res<>res://camera.gd<>uid://dko67l8oby02a::::res://Assets/animations/Jump.res<>uid://vhcfnmrgk7dd::::res://solmat.tres<>uid://tlguyjhviuv::::res://Assets/ground.glb
+::res://Assets/::1696674618
 ground.glb::PackedScene::39902866972413589::1696504527::1696595875::1::::<><>::
-mirel.gd::GDScript::-1::1696669666::0::1::::<>CharacterBody3D<>::
+mirel.gd::GDScript::-1::1696674618::0::1::::<>CharacterBody3D<>::
 mirel_Final.glb::PackedScene::8825521065486971791::1696593206::1696595931::1::::<><>::
-wand1.glb::PackedScene::5389897433267484218::1696669713::1696669723::1::::<><>::
-::res://Assets/animations/::1696596065
-Attack.res::Animation::71026980485639119::1696596065::0::1::::<><>::
+wand1.glb::PackedScene::5389897433267484218::1696674652::1696674665::1::::<><>::
+::res://Assets/animations/::1696674618
+Attack.res::Animation::71026980485639119::1696674618::0::1::::<><>::
 Blink.res::Animation::8280083897561321840::1696595931::0::1::::<><>::
 Idle.res::Animation::7326708122152520163::1696596065::0::1::::<><>::
 Jump.res::Animation::7891991777570983626::1696596065::0::1::::<><>::

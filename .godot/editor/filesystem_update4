@@ -1,2 +1,6 @@
 res://world.tscn
 res://Assets/mirel.gd
+res://Assets/animations/Attack.res
+res://player.tscn
+res://projectile.tscn
+res://projectile.gd

@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://8xehigs0ljdv"]
+
+[ext_resource type="Material" uid="uid://bkky5okx2osi8" path="res://Assets/materials/Magic Light.tres" id="1_i2bdu"]
+[ext_resource type="Script" path="res://projectile.gd" id="1_l8mtm"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_gan44"]
+
+[node name="Projectile" type="CharacterBody3D"]
+collision_layer = 2
+script = ExtResource("1_l8mtm")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+material = ExtResource("1_i2bdu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("SphereShape3D_gan44")
