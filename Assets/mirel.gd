@@ -3,8 +3,6 @@ extends CharacterBody3D
 var speed = 10
 var jump_speed = 20
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
-var tween = create_tween()
-var last_direction = "first"
 
 func _ready():
 	$AnimationTree.active = true
@@ -24,37 +22,33 @@ func _physics_process(delta):
 	else:
 		$AnimationTree.set("parameters/moving/transition_request", "idle")
 	
-	if velocity.x < 0:															# going left
-		if last_direction == "right":
+	if (!Input.is_action_pressed("attack_left") and !Input.is_action_pressed("attack_right")):
+		if velocity.x < 0:															# going left
 			var tween = create_tween()
 			tween.tween_property(self, "rotation_degrees", Vector3(0, -45, 0), 0.1) # rotate left
-			last_direction = "left"
-		if last_direction == "first":
-			last_direction = "right"
 
-	elif velocity.x > 0:														# goign right
-		if last_direction == "left":
+		elif velocity.x > 0:														# goign right
 			var tween = create_tween()
 			tween.tween_property(self, "rotation_degrees", Vector3(0, 45, 0), 0.1) # rotate right
-			last_direction = "right"
-		if last_direction == "first":
-			last_direction = "left"
 
-	else:																		# not moving
-		var tween = create_tween()
-		tween.tween_property(self, "rotation_degrees", Vector3(0, 0, 0), 0.1) # rotate front
+		else:																		# not moving
+			var tween = create_tween()
+			tween.tween_property(self, "rotation_degrees", Vector3(0, 0, 0), 0.1) 	# rotate front
 
 	if Input.is_action_just_pressed("move_jump") and is_on_floor():				# jumping
 		velocity.y = jump_speed
 
-	if Input.is_action_pressed("move_attack"):
+	if Input.is_action_pressed("attack_left"):
 		velocity.x = 0
-		if last_direction == "left":
-			var tween = create_tween()
-			tween.tween_property(self, "rotation_degrees", Vector3(0, -45, 0), 0.1) # rotate left
-		elif last_direction == "right":
-			var tween = create_tween()
-			tween.tween_property(self, "rotation_degrees", Vector3(0, 45, 0), 0.1) # rotate right
+		var tween = create_tween()
+		tween.tween_property(self, "rotation_degrees", Vector3(0, -45, 0), 0.1) # rotate left
 		$AnimationTree.set("parameters/moving/transition_request", "attack")
 
+	elif Input.is_action_pressed("attack_right"):
+		velocity.x = 0
+		var tween = create_tween()
+		tween.tween_property(self, "rotation_degrees", Vector3(0, 45, 0), 0.1) # rotate left
+		$AnimationTree.set("parameters/moving/transition_request", "attack")
+
+	print (direction)
 	move_and_slide()
