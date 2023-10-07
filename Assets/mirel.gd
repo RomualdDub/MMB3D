@@ -3,7 +3,8 @@ extends CharacterBody3D
 var speed = 10
 var jump_speed = 20
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
-@export var projectile: PackedScene 
+@export var projectile_speed = -50
+@onready var projectile_scene = preload("res://projectile.tscn")
 
 func _ready():
 	$AnimationTree.active = true
@@ -46,12 +47,14 @@ func _physics_process(delta):
 		var tween = create_tween()
 		tween.tween_property(self, "rotation_degrees", Vector3(0, -45, 0), 0.1) # rotate left
 		$AnimationTree.set("parameters/moving/transition_request", "attack")	# attack left 
+		Global.direction = 1
 		
 	elif Input.is_action_pressed("attack_right") and !Input.is_action_pressed("attack_left"):
 		velocity.x = 0 
 		var tween = create_tween()
 		tween.tween_property(self, "rotation_degrees", Vector3(0, 45, 0), 0.1) # rotate left
 		$AnimationTree.set("parameters/moving/transition_request", "attack")	# attack right
+		Global.direction = -1
 
 	elif Input.is_action_pressed("attack_left") and Input.is_action_pressed("attack_right"):
 		velocity.x = 0
@@ -62,6 +65,9 @@ func _physics_process(delta):
 	move_and_slide()
 
 func attack():
-	var bullet = projectile.instantiate()
-	owner.add_child(bullet)
+	var projectile = projectile_scene.instantiate()
+	add_sibling(projectile)
+	projectile.transform = $Armature/Skeleton3D/BoneAttachment3D/Wand/WandArmature/Skeleton3D/BoneAttachment3D.global_transform
+	projectile.rotation = Vector3(90, 90, 90)
+	
 	
