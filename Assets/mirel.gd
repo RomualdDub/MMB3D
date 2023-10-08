@@ -45,14 +45,14 @@ func _physics_process(delta):
 	if Input.is_action_pressed("attack_left") and !Input.is_action_pressed("attack_right"):
 		velocity.x = 0 
 		var tween = create_tween()
-		tween.tween_property(self, "rotation_degrees", Vector3(0, -45, 0), 0.1) # rotate left
+		tween.tween_property(self, "rotation_degrees", Vector3(0, -90, 0), 0.1) # rotate left
 		$AnimationTree.set("parameters/moving/transition_request", "attack")	# attack left 
 		Global.direction = 1
 		
 	elif Input.is_action_pressed("attack_right") and !Input.is_action_pressed("attack_left"):
 		velocity.x = 0 
 		var tween = create_tween()
-		tween.tween_property(self, "rotation_degrees", Vector3(0, 45, 0), 0.1) # rotate left
+		tween.tween_property(self, "rotation_degrees", Vector3(0, 90, 0), 0.1) # rotate left
 		$AnimationTree.set("parameters/moving/transition_request", "attack")	# attack right
 		Global.direction = -1
 
